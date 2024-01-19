@@ -29,5 +29,9 @@ const StyledHeaderMenu = styled.nav`
     ul {
         display: flex;
         gap: 30px;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
     }
 `
