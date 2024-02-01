@@ -1,18 +1,20 @@
 import './App.css';
-import styled from 'styled-components';
 import { Header } from './layout/header/Header';
 import { Main } from './layout/sections/main/Main';
 
 
 function App() {
     return (
-        <Header/>
-        // <Main/>
+        <div className="App">
+            <Header/>
+            <Main/>
+        </div>
     );
 }
 
 export default App;
 
+/*
 const Title = styled.h1`
     font-size: 1.5em;
     text-align: center;
@@ -27,4 +29,4 @@ const StyledAnxiety = styled.div`
   display: flex;
   gap: 20px;
   align-items: flex-start;
-`
+`*/

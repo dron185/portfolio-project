@@ -15,9 +15,6 @@ export const HeaderMenu = () => {
                     <a href="">Works</a>
                 </li>
                 <li>
-                    <a href="">Testimony</a>
-                </li>
-                <li>
                     <a href="">Contact</a>
                 </li>
             </ul>
