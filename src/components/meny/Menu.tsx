@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-export const HeaderMenu = () => {
+export const Menu = () => {
     return (
-        <StyledHeaderMenu>
+        <StyledMenu>
             <ul>
                 <li>
                     <a href="">Home</a>
@@ -18,11 +18,11 @@ export const HeaderMenu = () => {
                     <a href="">Contact</a>
                 </li>
             </ul>
-        </StyledHeaderMenu>
+        </StyledMenu>
     );
 };
 
-const StyledHeaderMenu = styled.nav`
+const StyledMenu = styled.nav`
     ul {
         display: flex;
         gap: 30px;
