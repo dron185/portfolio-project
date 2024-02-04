@@ -29,3 +29,4 @@ const SkillTitle = styled.h3`
 const SkillText = styled.p`
     
 `
+
