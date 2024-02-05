@@ -48,7 +48,6 @@ const Name = styled.h3`
 const SocialList = styled.ul`
     display: flex;
     gap: 30px;
-    list-style: none;
 `
 
 const SocialItem = styled.li`
