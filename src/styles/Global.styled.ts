@@ -10,6 +10,11 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     
+    html, body {
+        height: 100%;
+        line-height: 1;
+    }
+    
     body {
         margin: 0;
         font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -24,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
         text-decoration: none;
     }
     
-    ul {
+    ul, ol, li {
         list-style: none;
     }
     
