@@ -18,9 +18,8 @@ export const Contact = () => {
 };
 
 const StyledContacts = styled.section`
-    min-height: 50vh;
-    background-color: #efd1c5;
 `
+
 const StyledForm = styled.form`
     max-width: 540px;
     width: 100%;

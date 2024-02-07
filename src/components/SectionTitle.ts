@@ -8,6 +8,7 @@ export const SectionTitle = styled.h2`
     letter-spacing: 0.14em;
     text-align: center;
     margin-bottom: 90px;
+    color: ${theme.colors.accent};
     
     position: relative;
     

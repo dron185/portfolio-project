@@ -45,18 +45,13 @@ const StyledSkill = styled.div`
     width: 380px;
     padding: 62px 20px 40px;
 `
+
 const SkillTitle = styled.h3`
     margin: 70px 0 15px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
 `
+
 const SkillText = styled.p`
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
     text-align: center;
 `
 
