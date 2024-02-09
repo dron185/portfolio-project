@@ -32,7 +32,7 @@ const StyledMain = styled.section`
 `
 
 const PhotoWrapper = styled.div`
-    position: relative;
+    /*position: relative;
     z-index: 0;
     
     &::before {
@@ -46,7 +46,10 @@ const PhotoWrapper = styled.div`
         top: -10px;
         left: 10px;
         z-index: -1;
-    }
+    }*/
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background: linear-gradient(45deg,#01796F,#E3CB9D) border-box;
 `
 
 const Photo = styled.img`
