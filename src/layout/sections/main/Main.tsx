@@ -4,17 +4,18 @@ import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
+import {font} from "../../../styles/Common";
 
 export const Main = () => {
     return (
         <StyledMain>
             <Container>
-                <FlexWrapper justify={"space-between"} align={"center"}>
-                    <div>
+                <FlexWrapper justify={"space-around"} align={"center"} wrap={"wrap"}>
+                    <TextWrapper>
                         <SmallText>Hi There</SmallText>
                         <Name>I am <span>Andrei Huryn</span></Name>
                         <MainTitle>A Frontend Developer.</MainTitle>
-                    </div>
+                    </TextWrapper>
 
                     <PhotoWrapper>
                         <Photo src={photo} alt=""/>
@@ -27,60 +28,49 @@ export const Main = () => {
 
 const StyledMain = styled.section`
     min-height: 100vh;
-    background-color: #f6f3b6;
     display: flex;
 `
 
-const PhotoWrapper = styled.div`
-    /*position: relative;
-    z-index: 0;
+const TextWrapper = styled.div`
+    padding: 0 20px;
     
-    &::before {
-        content: '';
-        width: 387px;
-        height: 387px;
-        border-radius: 50%;
-        border: 5px solid ${theme.colors.accent1};
-        
-        position: absolute;
-        top: -10px;
-        left: 10px;
-        z-index: -1;
-    }*/
+    @media ${theme.media.mobile} {
+        padding: 0;
+    }
+`
+
+const PhotoWrapper = styled.div`
+    max-height: 367px;
+    max-width: 367px;
     border-radius: 50%;
     border: 10px solid transparent;
     background: linear-gradient(45deg,#01796F,#E3CB9D) border-box;
 `
 
 const Photo = styled.img`
-    width: 367px;
-    height: 367px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 50%;
 `
 
 const MainTitle = styled.h1`
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 1.5;
+    ${font({Fmax: 27, Fmin: 20, lineHeight: 1.5})}
 `
 
 const SmallText = styled.span`
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
+    ${font({lineHeight: 1.5, Fmax: 14, Fmin: 14})}
 `
 
 const Name = styled.h2`
+    ${font({family: "'Josefin Sans', sans-serif", weight: 700, Fmax: 50, Fmin: 36})}
     margin: 10px 0;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
     letter-spacing: 0.05em;
     
     span {
         position: relative;
         z-index: 0;
+        white-space: nowrap;
         
         &::before {
             content: '';
@@ -93,5 +83,9 @@ const Name = styled.h2`
             bottom: 0;
             z-index: -1;
         }
+    }
+    
+    @media ${theme.media.mobile} {
+        margin: 15px 0 22px;
     }
 `
