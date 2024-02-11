@@ -29,8 +29,12 @@ export const Main = () => {
 const StyledMain = styled.section`
     min-height: 100vh;
     display: flex;
+
+    ${FlexWrapper} {
+        column-gap: 25px;
+    }
     
-    @media screen and (max-width: 847px) {
+    @media screen and (max-width: 830px) {
         ${FlexWrapper} {
             justify-content: space-around;
         }
@@ -38,11 +42,7 @@ const StyledMain = styled.section`
 `
 
 const TextWrapper = styled.div`
-    padding: 0 20px;
     
-    @media ${theme.media.mobile} {
-        padding: 0;
-    }
 `
 
 const PhotoWrapper = styled.div`
