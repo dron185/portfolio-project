@@ -10,7 +10,7 @@ export const Main = () => {
     return (
         <StyledMain>
             <Container>
-                <FlexWrapper justify={"space-around"} align={"center"} wrap={"wrap"}>
+                <FlexWrapper justify={"space-between"} align={"center"} wrap={"wrap"}>
                     <TextWrapper>
                         <SmallText>Hi There</SmallText>
                         <Name>I am <span>Andrei Huryn</span></Name>
@@ -29,6 +29,12 @@ export const Main = () => {
 const StyledMain = styled.section`
     min-height: 100vh;
     display: flex;
+    
+    @media screen and (max-width: 847px) {
+        ${FlexWrapper} {
+            justify-content: space-around;
+        }
+    }
 `
 
 const TextWrapper = styled.div`
