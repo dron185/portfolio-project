@@ -45,7 +45,7 @@ const IconWrapper = styled.div`
 const StyledSkill = styled.div`
     width: 330px;
     flex-grow: 1;
-    padding: 62px 20px 40px;
+    padding: 52px 20px 45px;
     
     @media ${theme.media.mobile} {
         padding: 62px 0 40px;

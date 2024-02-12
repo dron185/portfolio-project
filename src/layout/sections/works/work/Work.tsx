@@ -120,7 +120,7 @@ const Title = styled.h3`
 `
 
 const Text = styled.p`
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     flex: 1 1 auto;
 `
 
