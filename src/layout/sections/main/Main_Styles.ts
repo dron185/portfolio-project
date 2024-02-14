@@ -38,7 +38,11 @@ const Photo = styled.img`
 `
 
 const MainTitle = styled.h1`
-    ${font({Fmax: 27, Fmin: 20, lineHeight: 1.5})}
+    ${font({Fmax: 27, Fmin: 20, lineHeight: 1.5})};
+    
+    p {
+        display: none;
+    }
 `
 
 const SmallText = styled.span`
