@@ -1,25 +1,25 @@
 import styled from "styled-components";
 import {font} from "../../../styles/Common";
 import {theme} from "../../../styles/Theme";
-import {FlexWrapper} from "../../../components/FlexWrapper";
+import imgAbstraction from "../../../assets/images/abstract.svg"
 
 const Main = styled.section`
     min-height: 100vh;
     display: flex;
-
-    ${FlexWrapper} {
-        column-gap: 25px;
-    }
-    
-    @media screen and (max-width: 830px) {
-        ${FlexWrapper} {
-            justify-content: space-around;
-        }
-    }
 `
 
 const TextWrapper = styled.div`
-    
+    padding: 10px 0;
+`
+
+const PhotoBgContainer = styled.div`
+    height: 570px;
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(${imgAbstraction}) no-repeat center/cover;
 `
 
 const PhotoWrapper = styled.div`
@@ -28,6 +28,8 @@ const PhotoWrapper = styled.div`
     border-radius: 50%;
     border: 10px solid transparent;
     background: linear-gradient(45deg,#01796F,#E3CB9D) border-box;
+    
+    margin: 10px;
 `
 
 const Photo = styled.img`
@@ -80,6 +82,7 @@ const Name = styled.h2`
 export const S = {
     Main,
     TextWrapper,
+    PhotoBgContainer,
     PhotoWrapper,
     Photo,
     MainTitle,
