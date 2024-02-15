@@ -1,10 +1,12 @@
 import React from 'react';
 import { S } from '../HeaderMenu_Styles';
 
-export const Menu: React.FC<{menuItems: Array<string>}> = (props: {menuItems: Array<string>}) => {
+const items = ["Home", "Skills", "Works", "Contact"]
+
+export const Menu: React.FC = () => {
     return (
         <ul>
-            {props.menuItems.map((item, index) => {
+            {items.map((item, index) => {
                 return <S.MenuItem key={index}>
                     <S.Link href="">{item}
                         <S.Mask>
