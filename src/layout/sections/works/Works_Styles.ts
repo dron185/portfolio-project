@@ -15,8 +15,8 @@ const Works = styled.section`
 // Work
 
 const Work = styled.div`
-    width: 330px;
-    flex-grow: 1;
+    //width: 330px;
+    //flex-grow: 1;
     background-color: ${theme.colors.secondaryBg};
     
     display: flex;
@@ -30,9 +30,9 @@ const Work = styled.div`
         }
     }
     
-    @media ${theme.media.desktop} {
-        max-width: 540px;
-    }
+    // @media ${theme.media.desktop} {
+    //     max-width: 540px;
+    // }
 `
 
 const ImageWrapper = styled.div`
