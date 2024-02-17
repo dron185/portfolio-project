@@ -1,6 +1,7 @@
 import styled, {css} from "styled-components";
 import {theme} from "../../../styles/Theme";
 import {Link} from "react-scroll";
+import {font} from "../../../styles/Common";
 
 // Menu
 
@@ -29,12 +30,7 @@ const Mask = styled.span`
 `
 
 const NavLink = styled(Link)`
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 1.1;
-    text-align: center;
-    color: transparent;
+    ${font({family: "'Manrope', sans-serif", Fmax: 30, Fmin: 30, lineHeight: 1.1, color: "transparent"})}
 
     &::before {
         content: '';
@@ -162,7 +158,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
 const DesktopMenu = styled.nav`
     ul {
         display: flex;
-        gap: 30px;
+        gap: 35px;
         justify-content: center;
     }
 `

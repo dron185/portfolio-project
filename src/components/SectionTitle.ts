@@ -3,7 +3,7 @@ import {theme} from "../styles/Theme";
 import {font} from "../styles/Common";
 
 export const SectionTitle = styled.h2`
-    ${font({family: "'Josefin Sans', sans-serif", weight: 600, Fmax: 36, Fmin: 30})};
+    ${font({family: "'Manrope', sans-serif", weight: 600, Fmax: 36, Fmin: 30})};
     letter-spacing: 0.14em;
     text-align: center;
     margin-bottom: 90px;

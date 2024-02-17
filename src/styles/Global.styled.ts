@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     
     body {
         margin: 0;
-        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -60,7 +60,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     h3 {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-size: 16px;
         font-weight: 700;
         letter-spacing: 0.06em;

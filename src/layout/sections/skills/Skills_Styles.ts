@@ -7,7 +7,7 @@ const Skills = styled.section`
 
 const IconWrapper = styled.div`
     position: relative;
-    
+
     &::before {
         content: '';
         display: inline-block;
