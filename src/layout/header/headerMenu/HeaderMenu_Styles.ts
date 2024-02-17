@@ -40,7 +40,7 @@ const NavLink = styled(Link)`
         content: '';
         display: inline-block;
         height: 3px;
-        background-color: ${theme.colors.accent1};
+        background-color: ${theme.colors.accent};
 
         position: absolute;
         top: 50%;
@@ -59,7 +59,7 @@ const NavLink = styled(Link)`
 
         ${Mask} {
             transform: skewX(12deg) translateX(5px);
-            color: ${theme.colors.font};
+            color: ${theme.colors.accent1};
 
             & + ${Mask} {
                 transform: skewX(12deg) translateX(-5px);

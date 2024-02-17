@@ -40,7 +40,7 @@ const Photo = styled.img`
 `
 
 const MainTitle = styled.h1`
-    ${font({Fmax: 27, Fmin: 20, lineHeight: 1.5})};
+    ${font({Fmax: 27, Fmin: 20, lineHeight: 1.5, color: "#01796F"})};
     
     p {
         display: none;
@@ -48,11 +48,11 @@ const MainTitle = styled.h1`
 `
 
 const SmallText = styled.span`
-    ${font({lineHeight: 1.5, Fmax: 14, Fmin: 14})}
+    ${font({lineHeight: 1.5, color: "#01796F", Fmax: 14, Fmin: 14})}
 `
 
 const Name = styled.h2`
-    ${font({family: "'Josefin Sans', sans-serif", weight: 700, Fmax: 50, Fmin: 36})}
+    ${font({family: "'Josefin Sans', sans-serif", weight: 700, color: "#01796F", Fmax: 50, Fmin: 36})}
     margin: 10px 0;
     letter-spacing: 0.05em;
     
@@ -60,13 +60,14 @@ const Name = styled.h2`
         position: relative;
         z-index: 0;
         white-space: nowrap;
+        color: ${theme.colors.font};
         
         &::before {
             content: '';
             display: inline-block;
             width: 100%;
-            height: 20px;
-            background-color: ${theme.colors.accent1};
+            height: 110%;
+            background-color: ${theme.colors.accent};
             
             position: absolute;
             bottom: 0;

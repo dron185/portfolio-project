@@ -49,10 +49,10 @@ export const Particle = () => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "#01796F",
                     },
                     links: {
-                        color: "#E3CB9D",
+                        color: "#01796F",
                         distance: 200,
                         enable: true,
                         opacity: 0.3,
