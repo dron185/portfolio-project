@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import {theme} from "../styles/Theme";
+import {font} from "../styles/Common";
 
 export const Button = styled.button`
+    ${font({Fmax: 14, Fmin: 14, lineHeight: 1.5})};
     width: 170px;
     height: 32px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
     letter-spacing: 1px;
     text-transform: uppercase;
     position: relative;

@@ -31,7 +31,7 @@ const Field = styled.input`
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.05em;
-    color: ${theme.colors.font};
+    color: ${theme.colors.font1};
     background-color: ${theme.colors.primaryBg};
 
     &::placeholder {

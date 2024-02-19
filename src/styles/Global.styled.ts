@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     
     a {
         text-decoration: none;
-        color: ${theme.colors.font};
+        color: ${theme.colors.font1};
         cursor: pointer;
     }
     
@@ -40,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: unset;
         border: none;
         cursor: pointer;
-        color: ${theme.colors.font};
+        color: ${theme.colors.font1};
     }
     
     section {
