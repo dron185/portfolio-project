@@ -24,6 +24,7 @@ export const GlobalStyle = createGlobalStyle`
         -moz-osx-font-smoothing: grayscale;
         color: ${theme.colors.font1};
         min-width: 360px;
+        //overflow-x: hidden;
     }
     
     a {

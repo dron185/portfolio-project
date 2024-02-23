@@ -57,6 +57,8 @@ const Name = styled.h2`
     letter-spacing: 0.05em;
     
     span {
+        display: inline-block;
+        margin-top: 15px;
         position: relative;
         z-index: 0;
         white-space: nowrap;
@@ -66,7 +68,7 @@ const Name = styled.h2`
             content: '';
             display: inline-block;
             width: 100%;
-            height: 93%;
+            height: 100%;
             background-color: ${theme.colors.accent};
             
             position: absolute;
