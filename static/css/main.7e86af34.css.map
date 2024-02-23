@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7e86af34.css","mappings":"AACA,KAEI,eAAgB,CADhB,eAEJ","sources":["App.css"],"sourcesContent":["\r\n.App {\r\n    overflow: hidden;\r\n    min-height: 100%;\r\n}"],"names":[],"sourceRoot":""}
