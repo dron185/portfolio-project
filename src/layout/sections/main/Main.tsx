@@ -13,7 +13,7 @@ export const Main: React.FC = () => {
                 <FlexWrapper justify={"space-around"} align={"center"} wrap={"wrap"}>
                     <S.TextWrapper>
                         <S.SmallText>Hi There</S.SmallText>
-                        <S.Name>I am <span>Andrei Huryn</span></S.Name>
+                        <S.Name>I am <span>Andrew Huryn</span></S.Name>
                         <S.MainTitle>
                             <p>A Frontend Developer.</p>
                             <Typewriter

@@ -4,7 +4,7 @@ import {font} from "../styles/Common";
 
 export const Link = styled.a<{active?: boolean}>`
         ${font({weight: 600, Fmax: 14, Fmin: 14, lineHeight: 1.5})};
-        color: ${theme.colors.font1};
+        color: ${theme.colors.font};
         letter-spacing: 1px;
         text-transform: uppercase;
         padding: 10px;

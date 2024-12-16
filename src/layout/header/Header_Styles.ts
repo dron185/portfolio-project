@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import {theme} from "../../styles/Theme";
 
 const Header = styled.header`
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: ${theme.colors.secondaryBg};
     padding: 20px 0;
     position: fixed;
     top: 0;

@@ -22,14 +22,14 @@ export const GlobalStyle = createGlobalStyle`
         sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        color: ${theme.colors.font1};
+        color: ${theme.colors.font};
         min-width: 360px;
         //overflow-x: hidden;
     }
     
     a {
         text-decoration: none;
-        color: ${theme.colors.font1};
+        color: ${theme.colors.font};
         cursor: pointer;
     }
     
@@ -41,7 +41,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: unset;
         border: none;
         cursor: pointer;
-        color: ${theme.colors.font1};
+        color: ${theme.colors.font};
     }
     
     section {

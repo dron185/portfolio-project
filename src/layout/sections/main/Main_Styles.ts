@@ -27,8 +27,7 @@ const PhotoWrapper = styled.div`
     max-width: 367px;
     border-radius: 50%;
     border: 10px solid transparent;
-    background: linear-gradient(45deg,#01796F,#E3CB9D) border-box;
-    
+    background: linear-gradient(45deg, rgba(43, 58, 80, 0.95), ${theme.colors.accent}) border-box;
     margin: 10px;
 `
 
@@ -40,7 +39,7 @@ const Photo = styled.img`
 `
 
 const MainTitle = styled.h1`
-    ${font({weight: 500, Fmax: 27, Fmin: 20, lineHeight: 1.5, color: "#01796F"})};
+    ${font({weight: 500, Fmax: 27, Fmin: 20, lineHeight: 1.5, color: theme.colors.accent})};
     
     p {
         display: none;
@@ -48,11 +47,11 @@ const MainTitle = styled.h1`
 `
 
 const SmallText = styled.span`
-    ${font({weight: 500, lineHeight: 1.5, color: "#01796F", Fmax: 16, Fmin: 16})}
+    ${font({weight: 500, lineHeight: 1.5, color: theme.colors.accent, Fmax: 16, Fmin: 16})}
 `
 
 const Name = styled.h2`
-    ${font({family: "'Manrope', sans-serif", weight: 700, color: "#01796F", Fmax: 50, Fmin: 36})}
+    ${font({family: "'Manrope', sans-serif", weight: 700, color: theme.colors.accent, Fmax: 50, Fmin: 36})}
     margin: 15px 0 22px;
     letter-spacing: 0.05em;
     
@@ -62,16 +61,17 @@ const Name = styled.h2`
         position: relative;
         z-index: 0;
         white-space: nowrap;
-        color: ${theme.colors.font};
+        color: ${theme.colors.primaryBg};
         
         &::before {
             content: '';
             display: inline-block;
             width: 100%;
-            height: 100%;
+            height: 110%;
             background-color: ${theme.colors.accent};
             
             position: absolute;
+            top: 5%;
             bottom: 0;
             z-index: -1;
         }
