@@ -6,7 +6,7 @@ import { S } from '../Skills_Styles';
 type SkillPropsType = {
     iconId: string
     title: string
-    description: string
+    // description: string
 }
 
 export const Skill = (props: SkillPropsType) => {
@@ -17,7 +17,7 @@ export const Skill = (props: SkillPropsType) => {
                     <Icon iconId={props.iconId}/>
                 </S.IconWrapper>
                 <S.SkillTitle>{props.title}</S.SkillTitle>
-                <S.SkillText>{props.description}</S.SkillText>
+                {/*<S.SkillText>{props.description}</S.SkillText>*/}
             </FlexWrapper>
         </S.Skill>
     );

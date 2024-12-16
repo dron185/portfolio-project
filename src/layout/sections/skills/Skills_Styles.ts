@@ -6,7 +6,7 @@ const Skills = styled.section`
 `
 
 const IconWrapper = styled.div`
-    
+    margin-bottom: 10px;
 `
 
 const Skill = styled.div`
@@ -20,7 +20,6 @@ const Skill = styled.div`
 `
 
 const SkillTitle = styled.h3`
-    margin: 70px 0 15px;
     text-transform: uppercase;
 `
 

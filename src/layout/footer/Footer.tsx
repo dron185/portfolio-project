@@ -15,7 +15,7 @@ const SocialItemsData = [
         height: "14.09px"
     },
     {
-        iconId: "github",
+        iconId: "github-sm",
         width: "21px",
         height: "21px"
     },
