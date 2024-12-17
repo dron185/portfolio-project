@@ -114,6 +114,15 @@ const Links = styled.div`
     
 `
 
+const ButtonLink = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+`
+
+
 export const S = {
     Works,
     Work,
@@ -122,5 +131,6 @@ export const S = {
     Description,
     Title,
     Text,
-    Links
+    Links,
+    ButtonLink
 }

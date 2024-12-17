@@ -5,7 +5,7 @@ import {Link} from "../../../../components/Link";
 // type MenuPropsType = {
 //     menuItems: Array<string>
 // }
-export type TabsStatusType = "all" | "landing" | "react" | "spa"
+export type TabsStatusType = "all" | "landing" | "react" | "mini"
 
 type TabMenuPropsType = {
     tabsItems: Array<{ title: string, status: TabsStatusType }>
