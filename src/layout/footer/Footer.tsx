@@ -7,22 +7,26 @@ const SocialItemsData = [
     {
         iconId: "mail",
         width: "21px",
-        height: "16px"
+        height: "16px",
+        url: "mailto:gurin.nord@gmail.com"
     },
     {
         iconId: "telegram",
         width: "16.8px",
-        height: "14.09px"
+        height: "14.09px",
+        url: "https://t.me/dron_by"
     },
     {
         iconId: "github-sm",
         width: "21px",
-        height: "21px"
+        height: "21px",
+        url: "https://github.com/dron185"
     },
     {
         iconId: "discord",
         width: "21px",
-        height: "17px"
+        height: "17px",
+        url: "https://discordapp.com/users/1004750057897197619/"
     }
 ]
 
@@ -30,13 +34,13 @@ export const Footer: React.FC = () => {
     return (
         <S.Footer>
             <FlexWrapper direction={"column"} align={"center"}>
-                <S.Name>Andrei</S.Name>
+                <S.Name>Andrew</S.Name>
                 <S.SocialList>
 
                     {SocialItemsData.map((s, index) => {
                         return (
                             <S.SocialItem key={index}>
-                                <S.SocialLink>
+                                <S.SocialLink href={s.url} target="_blank">
                                     <Icon iconId={s.iconId}
                                           width={s.width}
                                           height={s.height}
@@ -47,7 +51,7 @@ export const Footer: React.FC = () => {
                     })}
 
                 </S.SocialList>
-                <S.Copyright>© 2024 Andrei Huryn, All Rights Reserved.</S.Copyright>
+                <S.Copyright>© 2024 Andrew Huryn, All Rights Reserved.</S.Copyright>
             </FlexWrapper>
         </S.Footer>
     );
