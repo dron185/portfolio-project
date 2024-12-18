@@ -50,7 +50,7 @@ const worksData = [
         text: "Counter - is a simple application for counting numbers. Increase or decrease the value with a single tap. A lightweight and convenient tool for tracking numeric values.",
         type: "mini",
         id: "3",
-        demoLink: 'https://dron185.github.io/counter/',
+        demoLink: 'https://dron185.github.io/counter-new/',
         codeLink: 'https://github.com/dron185/counter'
     },
 ]
