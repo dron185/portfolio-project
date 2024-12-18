@@ -51,7 +51,7 @@ const worksData = [
         type: "mini",
         id: "3",
         demoLink: 'https://dron185.github.io/counter-new/',
-        codeLink: 'https://github.com/dron185/counter'
+        codeLink: 'https://github.com/dron185/counter-new'
     },
 ]
 
